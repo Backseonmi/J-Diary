@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="#D7BDF6">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meet Calendar"
+        android:textColor="#ffff"
+        android:textSize="50dp"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:id="@+id/edt_ID"
+        android:layout_width="280dp"
+        android:layout_height="66dp"
+        android:hint="아이디를 입력해주세요"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edt_PASSWORD"
+        android:layout_width="280dp"
+        android:layout_height="66dp"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:hint="비밀번호를 입력해주세요"
+        android:inputType="textPassword"/>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="380dp"
+        android:layout_height="230dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btn_LOGIN"
+            android:layout_width="350dp"
+            android:layout_height="66dp"
+            android:text="로그인"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:backgroundTint="#8FCBE6"/>
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btn_Register"
+            android:layout_width="350dp"
+            android:layout_height="66dp"
+            android:text="회원가입"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:backgroundTint="#8FCBE6"
+            android:layout_marginTop="28dp"/>
+    </LinearLayout>
+
+</LinearLayout>

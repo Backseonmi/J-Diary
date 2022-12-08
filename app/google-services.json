@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "655587658217",
+    "project_id": "meet-calendar-bd1a5",
+    "storage_bucket": "meet-calendar-bd1a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655587658217:android:ae2c950c4e832204f6a378",
+        "android_client_info": {
+          "package_name": "com.company.meet_calendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655587658217-urhbiaql1jocq282i3d4jn3df40ncs70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.meet_calendar",
+            "certificate_hash": "663bfabfad9e3df7190ed3aad4df70a7ba783997"
+          }
+        },
+        {
+          "client_id": "655587658217-2eb3mi6uqudt99sn14qhrc186qvtht67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYSnfqWbPKJWj5wcTkAH3EG4ayOPdMtmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655587658217-2eb3mi6uqudt99sn14qhrc186qvtht67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655587658217:android:5033f0ae345c99b2f6a378",
+        "android_client_info": {
+          "package_name": "com.cookandroid.calcal_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655587658217-2eb3mi6uqudt99sn14qhrc186qvtht67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYSnfqWbPKJWj5wcTkAH3EG4ayOPdMtmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655587658217-2eb3mi6uqudt99sn14qhrc186qvtht67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
